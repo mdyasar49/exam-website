@@ -1,0 +1,85 @@
+/* Styles for the container holding all the questions */
+.quizContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1800px; /* Increased max-width for a wider layout */
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff; /* Light blue background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Styling for the content wrapper */
+.contentWrapper {
+  display: flex;
+  flex: 1; /* Allow the content wrapper to grow and take available space */
+}
+
+/* Styling for the left side (QuestionList) */
+.questionList {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px; /* Adjust the margin between QuestionList and questionBox */
+}
+
+/* Styling for individual question boxes */
+.questionBox {
+  flex: 1; /* Allow the questionBox to take available space */
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgb(233, 243, 235); /* White background for each question */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(180, 179, 179, 0.1); /* Add a slight shadow for separation */
+}
+
+/* Typography for questions */
+.questionText {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for radio buttons */
+.radioGroup {
+  margin-top: 10px;
+}
+
+/* Styling for submit button */
+.submitButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50; /* Green color for the submit button */
+  color: #b10e0e; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Styling for error message */
+.errorText {
+  color: #ff0000; /* Red color for error messages */
+  margin-top: 10px;
+}
+
+/* Styling for timer */
+.timer {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333333; /* Dark gray color for timer */
+}
+
+/* Styling for navigation buttons */
+
+.nextButton{
+  padding-left: 100px;
+  background-color: #b10e0e;
+  float: right;
+}
+
